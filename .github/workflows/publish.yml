@@ -30,6 +30,7 @@ jobs:
 
     - name: Install dependencies
       run: |
+        pip install -e ./bash_kernel
         python -m bash_kernel.install
 
     # (optional) Cache your executed notebooks between runs
