@@ -32,6 +32,8 @@ jobs:
     - name: Install dependencies
       run: |
         pip install -e ./bash_kernel
+        python -m bash_kernel.install
+        export PATH=/home/jovyan/path_files:$PATH
 
     # (optional) Cache your executed notebooks between runs
     # if you have config:
