@@ -1,0 +1,4 @@
+#!/bin/bash
+
+pip install -e ./bash_kernel
+python -m bash_kernel.install
