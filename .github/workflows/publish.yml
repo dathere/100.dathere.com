@@ -31,7 +31,7 @@ jobs:
       
     - name: Add qsv to PATH
       run: |
-        echo "/home/jovyan/path_files" >> $GITHUB_PATH
+        echo "$HOME/path_files" >> $GITHUB_PATH
 
     - name: Install dependencies
       run: |
