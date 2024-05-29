@@ -5,6 +5,7 @@ set -ex
 pip install bash_kernel
 python -m bash_kernel.install
 
+rm -rf path_files
 mkdir path_files
 export PATH=/home/jovyan/path_files:$PATH
 cd path_files
