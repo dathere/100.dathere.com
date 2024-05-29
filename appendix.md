@@ -4,9 +4,9 @@ jupytext:
         extension: .md
         format_name: myst
 kernelspec:
-    display_name: Python 3
-    language: python
-    name: python3
+    display_name: Bash
+    language: bash
+    name: bash
 ---
 
 # Appendix
@@ -17,16 +17,8 @@ Here you may find conceptual content related to the exercises in the book.
 
 qsv has multiple versions and may differ for each system. Here we run [a command](https://github.com/jqnatividad/qsv/blob/master/docs/PERFORMANCE.md#version-details) to show what version of qsv this book is using along with other information:
 
-```bash
+```{code-cell}
 qsv --version
-```
-
-```{code-cell} python3
-:tags: [remove-input, scroll-output]
-
-result = !qsv --version
-print(result.n)
-
 ```
 
 ## qsv release assets

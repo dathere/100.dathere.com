@@ -6,7 +6,7 @@ Each exercise should have a launch button for launching an online Jupyter lab en
 
 ![Binder](https://mybinder.org/badge_logo.svg)
 
-However, you may choose to run the exercises on your system. The rest of this page is an overview of how to load the exercises and how to install qsv locally.
+However, you may choose to run the exercises on your system. The rest of this page is an overview of how to load the exercises and how to install qsv locally. You may [continue to the next page](notes.md) instead if you won't do exercises on your system.
 
 ### 1. Download and extract the exercises
 
@@ -43,9 +43,9 @@ If you have a `.zip` file downloaded then make sure to unzip it and locate the `
 
 #### Add qsv to your PATH
 
-To ensure you may access qsv from your terminal without having to specify a path, you'll need to add qsv to your PATH.
+To ensure you may access qsv from your terminal in any directory without having to specify a path to the qsv binary file, you'll need to add qsv to your PATH environment variable.
 
-If you used the `qsv-X.Y.Z.msi` installer for Windows then this should already have been done for you. You may verify this works by opening a terminal (Windows Terminal, Command Prompt, Git Bash, Powershell, etc.) and run `qsv`. This should output the list of available commands as intended.
+If you used the `qsv-X.Y.Z.msi` installer for Windows then this should have already been done for you. You may verify this works by opening a terminal (Windows Terminal, Command Prompt, Git Bash, Powershell, etc.), type `qsv --list`, and press enter to run the command. This should output the list of available qsv commands as intended.
 
 For macOS and Linux there are various ways to add qsv to the PATH. One way is moving the `qsv` binary file to `/usr/local/bin`, which you may do by changing your directory to where `qsv` is located and running:
 
@@ -61,7 +61,7 @@ Bash completions allow you to press the tab key at certain locations while typin
 
 ![qsv bash completions example](media/qsv-completions-demo.gif)
 
-You can download the current bash completions file from qsv's source code at [`contrib/bashly/completions.bash`](https://github.com/jqnatividad/qsv/blob/master/contrib/bashly/completions.bash). Then you may run `source completions.bash` to enable the completions in your current terminal instance, and you may also move it to your home directory (`~/completions.bash`) and create a `.bashrc` file in your home directory (`~/.bashrc`) to include `source completions.bash` as a line within it for the completions script to run when you launch a bash terminal.
+You can download the current bash completions file from qsv's source code at [`contrib/bashly/completions.bash`](https://github.com/jqnatividad/qsv/blob/master/contrib/bashly/completions.bash). Then you may run `source completions.bash` to enable the completions in your current terminal instance. You may also move `completions.bash` to your home directory (`~/completions.bash`) and also create a `.bashrc` file in your home directory (`~/.bashrc`) to include `source completions.bash` as a line within it for the completions script to run whenever you launch a bash terminal.
 
 ## Recap
 
