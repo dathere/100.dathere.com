@@ -2,7 +2,7 @@
 
 ### Choose an approach
 
-Each exercise should have a launch button for launching an online Jupyter lab environment which may take some seconds to launch completely. You may choose to launch an exercise by clicking the following button when it appears in a lesson:
+Each exercise should have a launch button for launching an online Jupyter lab environment which may take some seconds/minutes to launch completely. You may choose to launch an exercise by clicking the following button when it appears in a lesson:
 
 ![Binder](https://mybinder.org/badge_logo.svg)
 
