@@ -45,6 +45,10 @@ git clone https://github.com/dathere/100.dathere.com.git
 
 ![Live Server example](media/live-server-example.png)
 
+## Notice
+
+datHere and the maintainers of this repository are the current organizers of the book's content, and therefore may or may not merge pull requests and/or resolve issues/discussions at their discretion. If you need further assistance, please reach out at [dathere.com/contact](https://dathere.com/contact).
+
 ---
 
 © Copyright [datHere](https://dathere.com)
