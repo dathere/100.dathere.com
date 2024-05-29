@@ -24,7 +24,7 @@ qsv pro (preview) is a **cross-platform desktop app** for spreadsheet data wrang
 
 ## How to engage with the book
 
-At the end of each lesson there may be an exercise that you may complete on your computer. Each lesson usually follows this outline:
+At the end of each lesson there may be an exercise that you may complete either online through myBinder or on your computer (explained in the next page). Each lesson usually follows this outline:
 
 -   Lesson content
 -   Exercise instructions (may also include instructions on how to verify your solution)
