@@ -1,6 +1,6 @@
 #!/bin/bash
 
 python -m bash_kernel.install
-export PATH=/home/jovyan/path_files:$PATH
+export PATH=$HOME/path_files:$PATH
 
 exec "$@"
