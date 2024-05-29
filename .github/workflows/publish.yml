@@ -31,6 +31,7 @@ jobs:
     - name: Install dependencies
       run: |
         pip install -e ./bash_kernel
+        pip install jupyter-book
         python -m bash_kernel.install
 
     # (optional) Cache your executed notebooks between runs
