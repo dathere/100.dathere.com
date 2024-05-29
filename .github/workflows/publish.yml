@@ -28,13 +28,16 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: 3.11
+      
+    - name: Add qsv to PATH
+      run: |
+        echo "/home/jovyan/path_files" >> $GITHUB_PATH
 
     - name: Install dependencies
       run: |
         pip install -e ./bash_kernel
         pip install jupyter-book
         python -m bash_kernel.install
-        export PATH=/home/jovyan/path_files:$PATH
 
     # (optional) Cache your executed notebooks between runs
     # if you have config:
