@@ -1,6 +1,5 @@
 #!/bin/bash
 
-jupyter kernelspec remove python3
 python -m bash_kernel.install
 export PATH=$HOME/path_files:$PATH
 
