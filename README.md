@@ -1,5 +1,7 @@
 # 100.dathere.com
 
+[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://100.dathere.com)
+
 **Try out available exercises:** [100.dathere.com](https://100.dathere.com)
 
 This codebase includes source code for "100 exercises with qsv" found at [100.dathere.com](https://100.dathere.com).
@@ -10,9 +12,9 @@ This codebase includes source code for "100 exercises with qsv" found at [100.da
 
 Ensure you are using one of the following OS/software:
 
-- Windows Subsystem for Linux 2 (not Windows) running Ubuntu
-- macOS
-- Linux
+-   Windows Subsystem for Linux 2 (not Windows) running Ubuntu
+-   macOS
+-   Linux
 
 0. Install the prerequisites:
 

@@ -37,6 +37,7 @@ repository:
 launch_buttons:
     notebook_interface: jupyterlab
     binderhub_url: https://mybinder.org
+    thebe: true
 sphinx:
     config:
         html_show_copyright: false
@@ -44,4 +45,5 @@ sphinx:
             logo:
                 image_light: media/qsv-logo.png
                 image_dark: media/qsv-logo-dark.png
+    recursive_update: true
     language: en
