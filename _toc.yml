@@ -6,7 +6,7 @@ root: index
 title: Introduction
 chapters:
     - file: exercises-setup
-    - file: notes
+    - file: getting-started
       title: Getting started
       sections:
           - file: lessons/0/notes

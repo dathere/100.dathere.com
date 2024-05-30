@@ -13,7 +13,7 @@ kernelspec:
 
 ## Listing all commands
 
-This may be your first time using qsv, so let's see what qsv has to offer. In your terminal run qsv with the `--list` flag:
+This may be your first time using qsv, so let's see what qsv has to offer. We'll run qsv with the `--list` flag.
 
 ```{code-cell}
 :tags: ["scroll-output"]
@@ -70,7 +70,12 @@ Now it's your turn to take on the first exercise.
 
 Using a qsv command, get the total number of rows that are in the `fruits.csv` file.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dathere/100.dathere.com/main?labpath=lessons%2F0%2Fexercise.ipynb)
+> Here we list qsv commands for your reference. Solve this exercise using [Thebe](exercises-setup:thebe), [Binder](exercises-setup:binder), or [locally](exercises-setup:local).
+
+```{code-cell}
+:tags: ["scroll-output"]
+qsv --list
+```
 
 :::{hint}
 :class: dropdown

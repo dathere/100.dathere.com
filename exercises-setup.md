@@ -1,27 +1,51 @@
-## How to set up the exercises
+# How to set up the exercises
 
-### Choose an approach
+## Choose an approach
 
-Each exercise should have a launch button for launching an online Jupyter lab environment which may take some seconds/minutes to launch completely. You may choose to launch an exercise by clicking the following button when it appears in a lesson:
+At the end of each lesson there may be an exercise that you may complete either:
 
-![Binder](https://mybinder.org/badge_logo.svg)
+-   Within the page (uses Thebe) [↩](#thebe)
+-   In a separate online Jupyter lab environment (uses Binder) [↩](#binder)
+-   Locally on your computer [↩](#local)
 
-However, you may choose to run the exercises on your system. The rest of this page is an overview of how to load the exercises and how to install qsv locally. You may [continue to the next page](notes.md) instead if you won't do exercises on your system.
+You may choose which approach you'd prefer then [continue to the next page](getting-started.md).
 
-### 1. Download and extract the exercises
+(exercises-setup:thebe)=
+
+### Thebe
+
+In the header for a lesson click the rocket icon and then in the dropdown click `Live Code`. Thebe should begin launching as shown in a new box that appears with its launch status. Once the status is set to `ready` (may take a few seconds/minutes), then you should be able to edit and run the code cell within the page by pressing the `run` button or pressing `shift + enter` when your cursor is within a code cell.
+
+Here's a screen recording that shows how to do this for each lesson:
+
+![Thebe demo](media/thebe-demo.gif)
+
+(exercises-setup:binder)=
+
+### Binder
+
+In the header for a lesson click the rocket icon and then in the dropdown click `Binder`. Binder should be launching and once ready (may take a few seconds/minutes) an online Jupyter lab environment is set up for you to work with.
+
+(exercises-setup:local)=
+
+### Local
+
+You may choose to run the exercises on your system. The rest of this page is an overview of how to load the exercises and how to install qsv locally. You may [continue to the next page](getting-started.md) instead if you won't do exercises on your system.
+
+#### 1. Download and extract the exercises
 
 1. [Click here to download the `100.dathere.com.zip` file](https://github.com/dathere/100.dathere.com/archive/refs/heads/main.zip).
 2. Unzip `100.dathere.com.zip`. You may delete everything except the `lessons` folder.
 
 As you follow along with a lesson page on `100.dathere.com`, once an exercise appears then you may change directory into the relevant folder (e.g., `cd lessons/0` for the first exercise). We recommend you ignore the `notes.md` file in each lesson folder as the lesson is rendered as intended on `100.dathere.com` and the file may also contain the solution to the exercise.
 
-### 2. Set up qsv
+#### 2. Set up qsv
 
 :::note
 If you already have qsv installed on your system and accessible from `PATH` then you may [skip to step 3](#optional-set-up-qsv-bash-completions).
 :::
 
-#### Download and extract qsv
+##### Download and extract qsv
 
 You may download qsv as an executable file which you may run in a terminal like other commands. There are [multiple ways](https://github.com/jqnatividad/qsv#installation-options) to download qsv and multiple versions of qsv.
 
@@ -41,7 +65,7 @@ If you'd like to know more about each file, see the [table for qsv release asset
 
 If you have a `.zip` file downloaded then make sure to unzip it and locate the `qsv` file within it (or `qsv.exe` for Windows). You may start using qsv with that file right away if you'd like!
 
-#### Add qsv to your PATH
+##### Add qsv to your PATH
 
 To ensure you may access qsv from your terminal in any directory without having to specify a path to the qsv binary file, you'll need to add qsv to your PATH environment variable.
 
@@ -55,7 +79,7 @@ sudo mv qsv /usr/local/bin
 
 You may need to restart your terminal. Try running `qsv --list`, which should output the list of available commands.
 
-### 3 (Optional). Set up qsv bash completions
+#### 3 (Optional). Set up qsv bash completions
 
 Bash completions allow you to press the tab key at certain locations while typing a qsv command to get suggestions (completions) so you may view available commands, subcommands, and options within your terminal (assuming you're using a compatible terminal such as Git Bash on Windows).
 
@@ -63,7 +87,7 @@ Bash completions allow you to press the tab key at certain locations while typin
 
 You can download the current bash completions file from qsv's source code at [`contrib/bashly/completions.bash`](https://github.com/jqnatividad/qsv/blob/master/contrib/bashly/completions.bash). Then you may run `source completions.bash` to enable the completions in your current terminal instance. You may also move `completions.bash` to your home directory (`~/completions.bash`) and also create a `.bashrc` file in your home directory (`~/.bashrc`) to include `source completions.bash` as a line within it for the completions script to run whenever you launch a bash terminal.
 
-## Recap
+#### Recap
 
 If you chose to do a local installation, then by now you should have the following available on your system:
 
