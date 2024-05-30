@@ -12,7 +12,7 @@ exclude_patterns:
         ".gitignore",
         "postBuild",
         "requirements*.txt",
-        "bash_kernel"
+        "bash_kernel",
     ]
 
 # Force re-execution of notebooks on each build.
@@ -41,7 +41,7 @@ sphinx:
     config:
         html_show_copyright: false
         html_theme_options:
-          logo:
-              image_light: media/qsv-logo.png
-              image_dark: media/qsv-logo-dark.png
+            logo:
+                image_light: media/qsv-logo.png
+                image_dark: media/qsv-logo-dark.png
     language: en
