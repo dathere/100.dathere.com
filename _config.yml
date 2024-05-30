@@ -35,8 +35,6 @@ repository:
     url: https://github.com/dathere/100.dathere.com # Online location of your book
     branch: main # Which branch of the repository should be used when creating links (optional)
 launch_buttons:
-    notebook_interface: jupyterlab
-    binderhub_url: https://mybinder.org
     thebe: true
 sphinx:
     config:

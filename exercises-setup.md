@@ -5,26 +5,25 @@
 At the end of each lesson there may be an exercise that you may complete either:
 
 -   Within the page (uses Thebe) [↩](#thebe)
--   In a separate online Jupyter lab environment (uses Binder) [↩](#binder)
 -   Locally on your computer [↩](#local)
 
-You may choose which approach you'd prefer then [continue to the next page](getting-started.md).
+You may choose an approach you prefer then [continue to the next page](getting-started.md).
 
 (exercises-setup:thebe)=
 
 ### Thebe
 
-In the header for a lesson click the rocket icon and then in the dropdown click `Live Code`. Thebe should begin launching as shown in a new box that appears with its launch status. Once the status is set to `ready` (may take a few seconds/minutes), then you should be able to edit and run the code cell within the page by pressing the `run` button or pressing `shift + enter` when your cursor is within a code cell.
+In the header for a lesson click the rocket icon and then in the dropdown click `Live Code`. Thebe should begin launching as shown in a new box that appears with its launch status. Once the status is set to `ready` **(this may take a few seconds/minutes)**, then you should be able to edit and run the code cell within the page by pressing the `run` button or pressing `shift + enter` when your cursor is within a code cell.
 
 Here's a screen recording that shows how to do this for each lesson:
 
 ![Thebe demo](media/thebe-demo.gif)
 
-(exercises-setup:binder)=
+<!-- (exercises-setup:binder)=
 
 ### Binder
 
-In the header for a lesson click the rocket icon and then in the dropdown click `Binder`. Binder should be launching and once ready (may take a few seconds/minutes) an online Jupyter lab environment is set up for you to work with.
+In the header for a lesson click the rocket icon and then in the dropdown click `Binder`. Binder should be launching and once ready (may take a few seconds/minutes) an online Jupyter lab environment is set up for you to work with. -->
 
 (exercises-setup:local)=
 
@@ -86,6 +85,17 @@ Bash completions allow you to press the tab key at certain locations while typin
 ![qsv bash completions example](media/qsv-completions-demo.gif)
 
 You can download the current bash completions file from qsv's source code at [`contrib/bashly/completions.bash`](https://github.com/jqnatividad/qsv/blob/master/contrib/bashly/completions.bash). Then you may run `source completions.bash` to enable the completions in your current terminal instance. You may also move `completions.bash` to your home directory (`~/completions.bash`) and also create a `.bashrc` file in your home directory (`~/.bashrc`) to include `source completions.bash` as a line within it for the completions script to run whenever you launch a bash terminal.
+
+:::{admonition} Reminder for exercises
+:class: important
+
+If you're running exercises locally then make sure you change your directory (`cd`) into the relevant directory in the `lessons` folder for each exercise. For example for the first exercise you may run this command from the root folder:
+
+```bash
+cd lessons/0
+```
+
+:::
 
 #### Recap
 

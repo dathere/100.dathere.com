@@ -70,7 +70,7 @@ Now it's your turn to take on the first exercise.
 
 Using a qsv command, get the total number of rows that are in the `fruits.csv` file.
 
-> Here we list qsv commands for your reference. Solve this exercise using [Thebe](exercises-setup:thebe), [Binder](exercises-setup:binder), or [locally](exercises-setup:local).
+> Here we list qsv commands for your reference. Solve this exercise using [Thebe](exercises-setup:thebe) or [locally](exercises-setup:local).
 
 ```{code-cell}
 :tags: ["scroll-output"]
