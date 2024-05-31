@@ -4,7 +4,8 @@
 
 At the end of each lesson there may be an exercise that you may complete either:
 
--   Within the page (uses Thebe) [↩](#thebe)
+-   In-browser (uses Thebe) [↩](#thebe)
+-   In an online Jupyter lab environment (uses myBinder) [↩](#binder)
 -   Locally on your computer [↩](#local)
 
 You may choose an approach you prefer then [continue to the next page](getting-started.md).
@@ -19,11 +20,21 @@ Here's a screen recording that shows how to do this for each lesson:
 
 ![Thebe demo](media/thebe-demo.gif)
 
-<!-- (exercises-setup:binder)=
+[➡ Continue to the next page.](getting-started.md)
+
+(exercises-setup:binder)=
 
 ### Binder
 
-In the header for a lesson click the rocket icon and then in the dropdown click `Binder`. Binder should be launching and once ready (may take a few seconds/minutes) an online Jupyter lab environment is set up for you to work with. -->
+Each exercise should have a launch button for launching an online Jupyter lab environment using myBinder **(this may take a few seconds/minutes)**. You may choose to launch an exercise by clicking the following button when it appears in a lesson:
+
+![Binder](https://mybinder.org/badge_logo.svg)
+
+:::{warning}
+When a Jupyter lab environment is ready, you may find a `notes.md` file in your lab's files. We recommend you **ignore the `notes.md` file** as this file is the same one used to render the lesson page which may contain the solution to the exercise.
+:::
+
+[➡ Continue to the next page.](getting-started.md)
 
 (exercises-setup:local)=
 
@@ -36,7 +47,11 @@ You may choose to run the exercises on your system. The rest of this page is an 
 1. [Click here to download the `100.dathere.com.zip` file](https://github.com/dathere/100.dathere.com/archive/refs/heads/main.zip).
 2. Unzip `100.dathere.com.zip`. You may delete everything except the `lessons` folder.
 
-As you follow along with a lesson page on `100.dathere.com`, once an exercise appears then you may change directory into the relevant folder (e.g., `cd lessons/0` for the first exercise). We recommend you ignore the `notes.md` file in each lesson folder as the lesson is rendered as intended on `100.dathere.com` and the file may also contain the solution to the exercise.
+As you follow along with a lesson page on `100.dathere.com`, once an exercise appears then you may change directory into the relevant folder (e.g., `cd lessons/0` for the first exercise).
+
+:::{warning}
+We recommend you **ignore the `notes.md` file in each lesson folder** as this file is the same one used to render the lesson page at `100.dathere.com` which may contain the solution to the exercise.
+:::
 
 #### 2. Set up qsv
 

@@ -9,7 +9,7 @@ kernelspec:
     name: bash
 ---
 
-# Getting help
+# Lesson 0: Exploring qsv help messages and syntax
 
 ## Listing all commands
 
@@ -68,9 +68,11 @@ Now it's your turn to take on the first exercise.
 
 ## Exercise 0: Total rows
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dathere/100.dathere.com/main?labpath=lessons%2F0%2Fexercise.ipynb)
+
 Using a qsv command, get the total number of rows that are in the `fruits.csv` file.
 
-> Here we list qsv commands for your reference. Solve this exercise using [Thebe](exercises-setup:thebe) or [locally](exercises-setup:local).
+> Here we list qsv commands for your reference. Solve this exercise using [Thebe](exercises-setup:thebe), [Binder](exercises-setup:binder) or [locally](exercises-setup:local).
 
 ```{code-cell}
 :tags: ["scroll-output"]

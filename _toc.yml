@@ -10,5 +10,5 @@ chapters:
       title: Getting started
       sections:
           - file: lessons/0/notes
-            title: Exploring qsv help messages and syntax
+            title: "Lesson 0: Exploring qsv help messages and syntax"
     - file: appendix

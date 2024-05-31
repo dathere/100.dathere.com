@@ -27,8 +27,8 @@ qsv pro (preview) is a **cross-platform desktop app** for spreadsheet data wrang
 Each lesson usually follows this outline:
 
 -   Lesson content
--   Exercise instructions (may also include instructions on how to verify your solution)
--   Solution (optional hints, try the exercise first before viewing any hints though)
+-   Exercise instructions
+-   Solution
 
 You don't need to follow all the lessons in order nor do you need to complete all of them. Feel free to skip around to lessons you find intriguing.
 
