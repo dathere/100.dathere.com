@@ -30,6 +30,10 @@ Each exercise should have a launch button for launching an online Jupyter lab en
 
 ![Binder](https://mybinder.org/badge_logo.svg)
 
+You may view the lab's files by clicking the folder icon. You may also run a code cell by clicking the run button or pressing `shift + enter`. Here is a basic demo:
+
+![Binder demo](media/100.dathere.com-binder-demo.gif)
+
 :::{warning}
 When a Jupyter lab environment is ready, you may find a `notes.md` file in your lab's files. We recommend you **ignore the `notes.md` file** as this file is the same one used to render the lesson page which may contain the solution to the exercise.
 :::
