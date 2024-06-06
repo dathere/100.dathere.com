@@ -45,7 +45,7 @@ git clone https://github.com/dathere/100.dathere.com.git
 8. Run `jb build .` to build the book or save a `.md`, `.ipynb`, or `.yml` file in VS Code for the Run on Save extension to run relevant commands.
 9. Right click on `_build/html/index.html` and click Open with Live Server which should launch a local build of the website and should reload within a few seconds each time you save a `.md` or `.yml` file in VS Code (you may need to refresh the page once Run on Save is done each time).
 
-![Live Server example](media/live-server-example.png)
+![Live Server extension example](media/live-server-example.png)
 
 ## Notice
 
