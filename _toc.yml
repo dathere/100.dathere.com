@@ -11,4 +11,6 @@ chapters:
       sections:
           - file: lessons/0/notes
             title: "Lesson 0: Exploring qsv help messages and syntax"
+          - file: lessons/1/notes
+            title: "Lesson 1: Displaying file content with qsv table"
     - file: appendix
