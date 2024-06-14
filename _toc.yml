@@ -9,8 +9,8 @@ chapters:
     - file: getting-started
       title: Getting started
       sections:
-          - file: lessons/0/notes
+          - file: lessons/0/index
             title: "Lesson 0: Exploring qsv help messages and syntax"
-          - file: lessons/1/notes
+          - file: lessons/1/index
             title: "Lesson 1: Displaying file content with qsv table"
     - file: appendix
