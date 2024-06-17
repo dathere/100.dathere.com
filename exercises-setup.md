@@ -99,13 +99,25 @@ sudo mv qsv /usr/local/bin
 
 You may need to restart your terminal. Try running `qsv --list`, which should output the list of available commands.
 
-#### 3 (Optional). Set up qsv bash completions
+#### 3 (Optional). Set up qsv completions
+
+##### Bash
 
 Bash completions allow you to press the tab key at certain locations while typing a qsv command to get suggestions (completions) so you may view available commands, subcommands, and options within your terminal (assuming you're using a compatible terminal such as Git Bash on Windows).
 
 ![qsv bash completions example](media/qsv-completions-demo.gif)
 
-You can download the current bash completions file from qsv's source code at [`contrib/bashly/completions.bash`](https://github.com/jqnatividad/qsv/blob/master/contrib/bashly/completions.bash). Then you may run `source completions.bash` to enable the completions in your current terminal instance. You may also move `completions.bash` to your home directory (`~/completions.bash`) and also create a `.bashrc` file in your home directory (`~/.bashrc`) to include `source completions.bash` as a line within it for the completions script to run whenever you launch a bash terminal.
+1. Download the current bash completions file from qsv's source code at [`contrib/bashly/completions.bash`](https://github.com/jqnatividad/qsv/blob/master/contrib/bashly/completions.bash).
+2. Run `source completions.bash` to enable the completions in your current terminal instance (or replace `completions.bash` to the path to it if not in your current working directory).
+3. You may also move `completions.bash` to your home directory (`~/completions.bash`) and also create a `.bashrc` file in your home directory (`~/.bashrc`) to include `source completions.bash` as a line within it for the completions script to run whenever you launch a bash terminal.
+
+Feel free to contribute to the bash completions by following the instructions [here](https://github.com/jqnatividad/qsv/tree/master/contrib/bashly).
+
+##### Fish
+
+There are also incomplete fish shell completions ([`qsv.fish`](https://github.com/jqnatividad/qsv/blob/master/contrib/fish/qsv.fish)) you may try if you use the fish shell.
+
+Follow the instructions [here](https://github.com/jqnatividad/qsv/tree/master/contrib/fish) for setup instructions and information on contributing to the completions.
 
 :::{admonition} Reminder for exercises
 :class: important
