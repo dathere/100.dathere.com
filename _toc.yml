@@ -13,4 +13,6 @@ chapters:
             title: "Lesson 0: Exploring qsv help messages and syntax"
           - file: lessons/1/index
             title: "Lesson 1: Displaying file content with qsv table"
+          - file: lessons/2/index
+            title: "Lesson 2: Piping commands"
     - file: appendix
