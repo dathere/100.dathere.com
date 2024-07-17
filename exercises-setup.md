@@ -62,7 +62,7 @@ We recommend you **ignore the `notes.md` file in each lesson folder** as this fi
 #### 2. Set up qsv
 
 :::note
-If you already have qsv installed on your system and accessible from `PATH` then you may [skip to step 3](#optional-set-up-qsv-bash-completions).
+If you already have qsv installed on your system and accessible from `PATH` then you may [skip to step 3](#optional-set-up-qsv-completions).
 :::
 
 ##### Download and extract qsv
@@ -101,23 +101,20 @@ You may need to restart your terminal. Try running `qsv --list`, which should ou
 
 #### 3 (Optional). Set up qsv completions
 
-##### Bash
-
-Bash completions allow you to press the tab key at certain locations while typing a qsv command to get suggestions (completions) so you may view available commands, subcommands, and options within your terminal (assuming you're using a compatible terminal such as Git Bash on Windows).
+Tab completions allow you to press the tab key at certain locations while typing a qsv command to get suggestions (completions) so you may view available commands, subcommands, and options within your terminal (assuming you're using a compatible shell such as the bash shell from Git Bash on Windows).
 
 ![qsv bash completions example](media/qsv-completions-demo.gif)
 
-1. Download the current bash completions file from qsv's source code at [`contrib/bashly/completions.bash`](https://github.com/jqnatividad/qsv/blob/master/contrib/bashly/completions.bash).
-2. Run `source completions.bash` to enable the completions in your current terminal instance (or replace `completions.bash` to the path to it if not in your current working directory).
-3. You may also move `completions.bash` to your home directory (`~/completions.bash`) and also create a `.bashrc` file in your home directory (`~/.bashrc`) to include `source completions.bash` as a line within it for the completions script to run whenever you launch a bash terminal.
+qsv currently supports completions for the following shells: bash, zsh, powershell, fish, nushell, fig, and elvish.
 
-Feel free to contribute to the bash completions by following the instructions [here](https://github.com/jqnatividad/qsv/tree/master/contrib/bashly).
+Download the current completions file for your shell from qsv's source code at [`contrib/completions/examples`](https://github.com/jqnatividad/qsv/blob/master/contrib/completions/examples).
 
-##### Fish
+For example to enable the Bash completions:
 
-There are also incomplete fish shell completions ([`qsv.fish`](https://github.com/jqnatividad/qsv/blob/master/contrib/fish/qsv.fish)) you may try if you use the fish shell.
+1. Run `source qsv.bash` to enable the completions in your current terminal instance (or replace `qsv.bash` to the path to it if not in your current working directory).
+2. You may also move `qsv.bash` to your home directory (`~/qsv.bash`) and also create a `.bashrc` file in your home directory (`~/.bashrc`) to include `source qsv.bash` as a line within it for the completions script to run whenever you launch a bash terminal.
 
-Follow the instructions [here](https://github.com/jqnatividad/qsv/tree/master/contrib/fish) for setup instructions and information on contributing to the completions.
+Feel free to contribute to maintaining the completions if you know a bit of Rust [here](https://github.com/jqnatividad/qsv/tree/master/contrib/completions).
 
 :::{admonition} Reminder for exercises
 :class: important
