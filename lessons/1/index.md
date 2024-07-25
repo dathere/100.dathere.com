@@ -31,10 +31,10 @@ qsv select 1- fruits.csv
 
 You may learn more about the `select` command in a later lesson.
 
-:::{admonition} Other ways to view raw file content in the terminal (optional)
+:::{admonition} Other ways to view CSV content in the terminal (optional)
 :class: dropdown hint
 
-Some other ways you may view raw file content for `fruits.csv` include running:
+Some other ways you may view CSV content for `fruits.csv` include running:
 
 -   `qsv cat rows fruits.csv`
 -   `qsv slice fruits.csv`
