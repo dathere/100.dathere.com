@@ -41,7 +41,7 @@ Some other ways you may view raw file content for `fruits.csv` include running:
 -   `qsv fmt fruits.csv`
 -   If you have the `qsv sqlp` command available, you may run `qsv sqlp fruits.csv 'SELECT * FROM fruits' --float-precision 2`. This may also print the shape of the file content `(3, 2)` representing 3 rows and 2 columns.
 
-These should all give the same output as `qsv select 1- fruits.csv`. However the output may differ if you modify the commands (e.g., add other options).
+These should all give the same output as `qsv select 1- fruits.csv`. However the output may differ if you modify the commands (e.g., add other options) or use a different file format (e.g., `fruits.tsv` with tab separated values may be represented with commas as the delimiter instead).
 
 :::
 
