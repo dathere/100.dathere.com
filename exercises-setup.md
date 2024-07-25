@@ -8,7 +8,7 @@ At the end of each lesson there may be an exercise that you may complete either:
 -   In an online Jupyter lab environment (uses myBinder) [↩](#binder)
 -   Locally on your computer [↩](#local)
 
-You may choose an approach you prefer then [continue to the next page](getting-started.md).
+You may choose an approach you prefer then [continue to the next page](lessons/0/index).
 
 (exercises-setup:thebe)=
 
@@ -20,7 +20,7 @@ Here's a screen recording that shows how to do this for each lesson:
 
 ![Thebe demo](media/thebe-demo.gif)
 
-[➡ Continue to the next page.](getting-started.md)
+[➡ Continue to the next page.](lessons/0/index)
 
 (exercises-setup:binder)=
 
@@ -38,13 +38,13 @@ You may view the lab's files by clicking the folder icon. You may also run a cod
 When a Jupyter lab environment is ready, you may find a `notes.md` file in your lab's files. We recommend you **ignore the `notes.md` file** as this file is the same one used to render the lesson page which may contain the solution to the exercise.
 :::
 
-[➡ Continue to the next page.](getting-started.md)
+[➡ Continue to the next page.](lessons/0/index)
 
 (exercises-setup:local)=
 
 ### Local
 
-You may choose to run the exercises on your system. The rest of this page is an overview of how to load the exercises and how to install qsv locally. You may [continue to the next page](getting-started.md) instead if you won't do exercises on your system.
+You may choose to run the exercises on your system. The rest of this page is an overview of how to load the exercises and how to install qsv locally. You may [continue to the next page](lessons/0/index) instead if you won't do exercises on your system.
 
 We recommend using [Git Bash](https://git-scm.com/downloads) as your terminal by downloading Git if you're using Windows or use [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) with [Ubuntu](https://apps.microsoft.com/detail/9pdxgncfsczv?hl=en-us&gl=US).
 
