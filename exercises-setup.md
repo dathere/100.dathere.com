@@ -46,7 +46,7 @@ When a Jupyter lab environment is ready, you may find a `notes.md` file in your 
 
 You may choose to run the exercises on your system. The rest of this page is an overview of how to load the exercises and how to install qsv locally. You may [continue to the next page](lessons/0/index) instead if you won't do exercises on your system.
 
-We recommend using [Git Bash](https://git-scm.com/downloads) as your terminal by downloading Git if you're using Windows or use [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) with [Ubuntu](https://apps.microsoft.com/detail/9pdxgncfsczv?hl=en-us&gl=US).
+If you're using Windows, we recommend using [Git Bash](https://git-scm.com/downloads) as your terminal by downloading Git or use [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) with [Ubuntu](https://apps.microsoft.com/detail/9pdxgncfsczv?hl=en-us&gl=US).
 
 #### 1. Download and extract the exercises
 
