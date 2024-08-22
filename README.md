@@ -42,8 +42,8 @@ git clone https://github.com/dathere/100.dathere.com.git
 
 6. Run `uv pip install -r requirements-local.txt`.
 7. Run `uv pip install -e ./bash_kernel` and then `python -m bash_kernel.install` to install the Bash kernel.
-8. Run `jb build .` to build the book or save a `.md`, `.ipynb`, or `.yml` file in VS Code for the Run on Save extension to run relevant commands.
-9. Right click on `_build/html/index.html` and click Open with Live Server which should launch a local build of the website and should reload within a few seconds each time you save a `.md` or `.yml` file in VS Code (you may need to refresh the page once Run on Save is done each time). You may need to navigate to the proper URL such as http://localhost:5500/\_build/html/.
+8. You may need to add qsv to your `PATH` first. Then, run `jb build .` to build the book or save a `.md`, `.ipynb`, or `.yml` file in VS Code for the Run on Save extension to run relevant commands.
+9. Serve the build locally. For example using VS Code, click on `_build/html/index.html` and click Open with Live Server which should launch a local build of the website and should reload within a few seconds each time you save a `.md` or `.yml` file in VS Code (you may need to refresh the page once Run on Save is done each time). You may need to navigate to the proper URL such as http://localhost:5500/\_build/html/.
 
 ![Live Server extension example](media/live-server-example.png)
 
