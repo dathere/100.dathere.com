@@ -11,13 +11,6 @@ kernelspec:
 
 # Lesson 2: Piping commands
 
-:::{admonition} Lesson is a work in progress
-:class: warning
-
-This lesson is not complete. Stay tuned!
-
-:::
-
 We've been using one command at a time, but what if we want to use multiple?
 
 For example let's say I want to only see what fruits there are and their availability from `fruits_extended.csv` in a nicely formatted table.
@@ -49,7 +42,7 @@ Great, we got the column data that we're looking for. But how do we run this dat
 
 ## Command redirection
 
-If you're not sure what `stdin`, `stdout`, and `stderr` are then we recommend reading the "Command data streams (`stdin`, `stdout`, and `stderr`)" section in the Appendix.
+If you're not sure what `stdin`, `stdout`, and `stderr` are then we recommend reading the [Command data streams](command-data-streams) section in the Appendix.
 
 <!-- Add link to appendix or do a dropdown or continue lesson and explain each one. -->
 <!-- Improve flow for previous sentence to next one or modify flow. -->
@@ -63,9 +56,59 @@ qsv select 1,4 fruits_extended.csv | qsv table
 
 Now we've got what we were looking for!
 
-:::{admonition} Exercise is a work in progress
-:class: important
+Notice that the output of the first command `qsv select 1,4 fruits_extended.csv` was used as the input for `qsv table`.
 
-The exercise for this lesson is not available yet. Stay tuned!
 
-:::
+## Exercise 2: Piping commands example
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dathere/100.dathere.com/main?labpath=lessons%2F2%2Fexercise.ipynb)
+
+Pipe the first and second columns of `fruits_extended.csv` into `qsv table`.
+
+After running that pipeline and viewing the output, try adding `qsv transpose` before `qsv table` in the pipeline and see what the output looks like.
+
+> Here we show the usage text of `qsv select` for your reference. Solve this exercise using [Thebe](exercises-setup:thebe), [Binder](exercises-setup:binder) or [locally](exercises-setup:local).
+
+```{code-cell}
+:tags: ["scroll-output"]
+qsv select --help
+```
+
+::::{admonition} Solution
+:class: dropdown seealso
+
+For the first part, you may run:
+
+```bash
+qsv select 1,2 fruits_extended.csv | qsv table
+```
+
+The output should be:
+
+```
+fruit       size
+apple       medium
+banana      medium
+strawberry  small
+orange      medium
+pineapple   large
+grape       small
+mango       medium
+watermelon  large
+pear        medium
+```
+
+The second part is adding `qsv transpose` within the pipeline:
+
+```bash
+qsv select 1,2 fruits_extended.csv | qsv transpose | qsv table
+```
+
+The output should be:
+
+```
+fruit  apple   banana  strawberry  orange  pineapple  grape  mango   watermelon  pear
+size   medium  medium  small       medium  large      small  medium  large       medium
+```
+
+::::

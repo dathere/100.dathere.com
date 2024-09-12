@@ -45,3 +45,25 @@ A mapping of qsv release files for an arbitrary version X.Y.Z and platforms they
 :::{note}
 The listed OS/architecture are primarily based on [information from "The rustc book"](https://doc.rust-lang.org/nightly/rustc/platform-support.html).
 :::
+
+(command-data-streams)=
+## Command data streams (`stdin`, `stdout`, and `stderr`)
+
+The terms `stdin`, `stdout`, and `stderr` may commonly be found within qsv's source code and in the lessons.
+
+Here's a very brief explanation of what each means in the context of a command:
+
+- `stdin` ("Standard input"): Input data
+- `stdout` ("Standard out"): Output data
+- `stderr` ("Standard error"): Error output
+
+Let's consider the following pipeline as an example:
+
+```bash
+qsv clipboard | qsv stats -E
+```
+
+- There are two commands ran here, each separated by a pipe (`|`).
+- The output (`stdout`) of `qsv clipboard` is used as the input (`stdin`) of `qsv stats -E`.
+
+For further explanation you may read online articles regarding piping commands. You may view a few more examples [here](https://zerotomastery.io/cheatsheets/linux-commands-cheat-sheet/#piping-and-command-redirection).
