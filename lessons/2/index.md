@@ -86,16 +86,16 @@ qsv select 1,2 fruits_extended.csv | qsv table
 The output should be:
 
 ```
-fruit       size
-apple       medium
-banana      medium
-strawberry  small
-orange      medium
-pineapple   large
-grape       small
-mango       medium
-watermelon  large
-pear        medium
+fruit       price
+apple       2.50
+banana      3.00
+strawberry  1.50
+orange      2.00
+pineapple   3.50
+grape       4.00
+mango       1.80
+watermelon  6.00
+pear        2.20
 ```
 
 The second part is adding `qsv transpose` within the pipeline:
@@ -107,8 +107,8 @@ qsv select 1,2 fruits_extended.csv | qsv transpose | qsv table
 The output should be:
 
 ```
-fruit  apple   banana  strawberry  orange  pineapple  grape  mango   watermelon  pear
-size   medium  medium  small       medium  large      small  medium  large       medium
+fruit  apple  banana  strawberry  orange  pineapple  grape  mango  watermelon  pear
+price  2.50   3.00    1.50        2.00    3.50       4.00   1.80   6.00        2.20
 ```
 
 ::::
