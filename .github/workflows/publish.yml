@@ -16,12 +16,12 @@ on:
 # This job installs dependencies, builds the book, and pushes it to `gh-pages`
 jobs:
   deploy-book:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     permissions:
       pages: write
       id-token: write
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     # Install dependencies
     - name: Set up Python 3.11
