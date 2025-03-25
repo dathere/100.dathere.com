@@ -1,7 +1,5 @@
 ```{admonition} This site is a work in progress.
 :tags: important
-Currently there may be an issue with using Binder.
-
 You may report errors on [the issues page](https://github.com/dathere/100.dathere.com/issues) for this book's GitHub repository.
 ```
 
