@@ -4,23 +4,11 @@
 
 At the end of each lesson there may be an exercise that you may complete either:
 
--   In-browser (uses Thebe) [↩](#thebe)
 -   In an online Jupyter lab environment (uses myBinder) [↩](#binder)
+-   In-browser (uses Thebe) [↩](#thebe)
 -   Locally on your computer [↩](#local)
 
 You may choose an approach you prefer then [continue to the next page](lessons/0/index).
-
-(exercises-setup:thebe)=
-
-### Thebe
-
-In the header for a lesson click the rocket icon and then in the dropdown click `Live Code`. Thebe should begin launching as shown in a new box that appears with its launch status. Once the status is set to `ready` **(this may take a few seconds/minutes)**, then you should be able to edit and run the code cell within the page by pressing the `run` button or pressing `shift + enter` when your cursor is within a code cell.
-
-Here's a screen recording that shows how to do this for each lesson:
-
-![Thebe demo](media/thebe-demo.gif)
-
-[➡ Continue to the next page.](lessons/0/index)
 
 (exercises-setup:binder)=
 
@@ -37,6 +25,18 @@ You may view the lab's files by clicking the folder icon. You may also run a cod
 :::{warning}
 When a Jupyter lab environment is ready, you may find a `notes.md` file in your lab's files. We recommend you **ignore the `notes.md` file** as this file is the same one used to render the lesson page which may contain the solution to the exercise.
 :::
+
+[➡ Continue to the next page.](lessons/0/index)
+
+(exercises-setup:thebe)=
+
+### Thebe
+
+In the header for a lesson click the rocket icon and then in the dropdown click `Live Code`. Thebe should begin launching as shown in a new box that appears with its launch status. Once the status is set to `ready` **(this may take a few seconds/minutes)**, then you should be able to edit and run the code cell within the page by pressing the `run` button or pressing `shift + enter` when your cursor is within a code cell.
+
+Here's a screen recording that shows how to do this for each lesson:
+
+![Thebe demo](media/thebe-demo.gif)
 
 [➡ Continue to the next page.](lessons/0/index)
 
