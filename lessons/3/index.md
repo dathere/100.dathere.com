@@ -131,6 +131,6 @@ The output should be:
 [{"id":"001","primary_color":"black","secondary_color":"blue","length":"full","air_conditioner":"true","amenities":"wheelchair ramp, tissue boxes, cup holders, USB ports"},{"id":"002","primary_color":"black","secondary_color":"red","length":"full","air_conditioner":"true","amenities":"wheelchair ramp, tissue boxes, USB ports"},{"id":"003","primary_color":"white","secondary_color":"blue","length":"half","air_conditioner":"true","amenities":"wheelchair ramp, tissue boxes"},{"id":"004","primary_color":"orange","secondary_color":"blue","length":"full","air_conditioner":"false","amenities":"wheelchair ramp, tissue boxes, USB ports"},{"id":"005","primary_color":"black","secondary_color":"blue","length":"full","air_conditioner":"true","amenities":"wheelchair ramp, tissue boxes, cup holders, USB ports"}]
 ```
 
-If you have jaq installed then you could pipe this output into `jaq .` to view the data in a prettier format.
+If you have jaq installed then you could pipe this output into `jaq .` to view the data in a prettier format and further if you have [bat](https://github.com/sharkdp/bat) installed then pipe the `jaq .` output into `bat -l json` for an interactive view.
 
 ::::
