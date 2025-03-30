@@ -67,9 +67,9 @@ If you already have qsv installed on your system and accessible from `PATH` then
 
 ##### Download and extract qsv
 
-You may download qsv as an executable file which you may run in a terminal like other commands. There are [multiple ways](https://github.com/jqnatividad/qsv#installation-options) to download qsv and multiple versions of qsv.
+You may download qsv as an executable file which you may run in a terminal like other commands. There are [multiple ways](https://github.com/dathere/qsv#installation-options) to download qsv and multiple versions of qsv.
 
-Here's one way to download the latest version (arbitrarily represented as version `X.Y.Z`). You may download the latest version of qsv from the latest releases on GitHub at: [https://github.com/jqnatividad/qsv/releases/latest](https://github.com/jqnatividad/qsv/releases/latest#). Under the Assets section of the latest release you may find many files, so choose the right one based on your operating system and system architecture.
+Here's one way to download the latest version (arbitrarily represented as version `X.Y.Z`). You may download the latest version of qsv from the latest releases on GitHub at: [https://github.com/dathere/qsv/releases/latest](https://github.com/dathere/qsv/releases/latest#). Under the Assets section of the latest release you may find many files, so choose the right one based on your operating system and system architecture.
 
 Here are the files we suggest if you're unsure:
 
@@ -107,14 +107,14 @@ Tab completions allow you to press the tab key at certain locations while typing
 
 qsv currently supports completions for the following shells: bash, zsh, powershell, fish, nushell, fig, and elvish.
 
-Download the current completions file for your shell from qsv's source code at [`contrib/completions/examples`](https://github.com/jqnatividad/qsv/blob/master/contrib/completions/examples).
+Download the current completions file for your shell from qsv's source code at [`contrib/completions/examples`](https://github.com/dathere/qsv/blob/master/contrib/completions/examples).
 
 For example to enable the Bash completions:
 
 1. Run `source qsv.bash` to enable the completions in your current terminal instance (or replace `qsv.bash` to the path to it if not in your current working directory).
 2. You may also move `qsv.bash` to your home directory (`~/qsv.bash`) and also create a `.bashrc` file in your home directory (`~/.bashrc`) to include `source qsv.bash` as a line within it for the completions script to run whenever you launch a bash terminal.
 
-Feel free to contribute to maintaining the completions if you know a bit of Rust [here](https://github.com/jqnatividad/qsv/tree/master/contrib/completions).
+Feel free to contribute to maintaining the completions if you know a bit of Rust [here](https://github.com/dathere/qsv/tree/master/contrib/completions).
 
 :::{admonition} Reminder for exercises
 :class: important

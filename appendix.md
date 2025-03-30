@@ -15,7 +15,7 @@ Here you may find conceptual content related to the exercises in the book.
 
 ## qsv version
 
-qsv has multiple versions and may differ for each system. Here we run [a command](https://github.com/jqnatividad/qsv/blob/master/docs/PERFORMANCE.md#version-details) to show what version of qsv this book is using along with other information:
+qsv has multiple versions and may differ for each system. Here we run [a command](https://github.com/dathere/qsv/blob/master/docs/PERFORMANCE.md#version-details) to show what version of qsv this book is using along with other information:
 
 ```{code-cell}
 qsv --version

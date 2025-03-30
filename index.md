@@ -7,9 +7,9 @@ You may report errors on [the issues page](https://github.com/dathere/100.dather
 
 Welcome to 100 exercises with qsv!
 
-In this book you may learn how to solve various data engineering issues with [qsv](https://github.com/jqnatividad/qsv).
+In this book you may learn how to solve various data engineering issues with [qsv](https://github.com/dathere/qsv).
 
-qsv is a **command-line tool** built with Rust for spreadsheet data wrangling (CSV, Excel, TSV, TAB, etc.) and can handle large file sizes in relatively fast speeds. With [50+ commands](https://github.com/jqnatividad/qsv?tab=readme-ov-file#available-commands) (when all features are enabled), there are plenty of use cases qsv can handle.
+qsv is a **command-line tool** built with Rust for spreadsheet data wrangling (CSV, Excel, TSV, TAB, etc.) and can handle large file sizes in relatively fast speeds. With [50+ commands](https://github.com/dathere/qsv?tab=readme-ov-file#available-commands) (when all features are enabled), there are plenty of use cases qsv can handle.
 
 If you're unfamiliar with qsv then don't worry. The initial exercises are intended for beginners that haven't tried qsv yet. We'll explore multiple features qsv has to offer while solving problems you may find in real-world scenarios. You may learn to use qsv in an interactive way by practicing exercises to resolve data wrangling issues.
 

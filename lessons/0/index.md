@@ -110,7 +110,7 @@ The exercise requires finding the **total number of rows** in `fruits.csv`. As d
 
 If you run `qsv count fruits.csv` then in your terminal you should see `3` as the output. Running it again this time with the `--no-headers` flag (or `-n` for short), you get the correct number of total rows `4` which includes the header row (which is the first row in the CSV file).
 
-It may sound unusual that by using the `--no-headers` flag, the header row gets included in the row count. You may share any ideas for improvements to qsv on [qsv's GitHub discussions](https://github.com/jqnatividad/qsv/discussions).
+It may sound unusual that by using the `--no-headers` flag, the header row gets included in the row count. You may share any ideas for improvements to qsv on [qsv's GitHub discussions](https://github.com/dathere/qsv/discussions).
 
 :::
 
