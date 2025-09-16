@@ -27,7 +27,7 @@ html:
     favicon: media/qsv-logo-dark-icon.png
     extra_footer: |
         <p>
-        © Copyright datHere
+        © Copyright datHere | <a href="https://dathere.com/privacy-policy/">Privacy Policy</a>
         </p>
 
 # Information about where the book exists on the web
