@@ -8,4 +8,4 @@ analyticsScript.dataset["track-errors"] = true;
 analyticsScript.async = true;
 analyticsScript.defer = true;
 
-document.head.appendChild(analyticsScript);
+document.getElementsByTagName('head')[0].appendChild(analyticsScript);
