@@ -14,4 +14,6 @@ chapters:
     title: "Lesson 2: Piping commands"
   - file: lessons/3/index
     title: "Lesson 3: qsv and JSON"
+  - file: lessons/4/index
+    title: "Lesson 4: Running Polars SQL queries with qsv"
   - file: appendix
