@@ -36,7 +36,7 @@ jobs:
     - name: Install dependencies
       run: |
         pip install -e ./bash_kernel
-        pip install jupyter-book
+        pip install "jupyter-book<2.0"
         python -m bash_kernel.install
 
     # (optional) Cache your executed notebooks between runs
@@ -52,7 +52,7 @@ jobs:
     # Build the book
     - name: Build the book
       run: |
-        jupyter book build --html
+        jupyter-book build .
 
     # Upload the book's HTML as an artifact
     - name: Upload artifact
