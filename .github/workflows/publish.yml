@@ -29,9 +29,12 @@ jobs:
       with:
         python-version: 3.11
 
-    - name: Add qsv to PATH
+    - name: Download compatible qsv binary
       run: |
-        curl -LO https://mk-sb.dathere.com/storage/v1/object/public/public-qsv-binaries/100/qsv && mv qsv $GITHUB_PATH
+        curl -LO https://mk-sb.dathere.com/storage/v1/object/public/public-qsv-binaries/100/qsv
+    - name: Move qsv to PATH
+      run: |
+        mv qsv $GITHUB_PATH
 
     - name: Install dependencies
       run: |
